@@ -7,7 +7,7 @@
             <a href="">SVG</a>
         </div>
         <div>
-            <a href="">LOGIN</a>
+            <router-link :to="{ name: 'login-user' }">LOGIN</router-link>
             <span class="separated">|</span>
             <a href="">REGISTER</a>
         </div>
