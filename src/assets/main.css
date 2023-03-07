@@ -1,6 +1,7 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%; /* 1REM = 10px */
+    font-family: 'Roboto';
 }
 *, *:before, *:after { box-sizing: inherit; }
 
@@ -12,10 +13,6 @@ html {
     --color-5: #5D5B58;
     --color-6: #D8D1D2;
     --color-7: #88704A;
-}
-
-h1{
-    font-size: 5rem;
 }
 
 .btn{
