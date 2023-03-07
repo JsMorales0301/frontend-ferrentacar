@@ -1,0 +1,10 @@
+.nav-home{
+    padding-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+}
+
+.separated{
+    margin: 0 3.2rem;
+}

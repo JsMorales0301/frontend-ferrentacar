@@ -1,0 +1,41 @@
+h1{
+    font-size: 3.8rem;
+}
+
+.general-information{
+    margin-top: 4rem;
+}
+
+.vehicle-main {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.vehicle {
+    max-width: 51,2rem;
+    height: 28.8rem;
+}
+
+.form-home{
+    display: flex;
+    justify-content: center;
+    gap: 3.2rem;
+}
+
+.input-home{
+    border-width: .1rem;
+    padding: 1rem;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    row-gap: 1.6rem;
+}
+
+.field input {
+    border: none;
+}
+
