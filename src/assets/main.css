@@ -2,6 +2,42 @@ html {
     box-sizing: border-box;
     font-size: 62.5%; /* 1REM = 10px */
 }
-*, *:before, *:after {
-    box-sizing: inherit;
+*, *:before, *:after { box-sizing: inherit; }
+
+:root {
+    --color-1: #ECAD1B;
+    --color-2: #E3E3E4;
+    --color-3: #BCBDC1;
+    --color-4: #171615;
+    --color-5: #5D5B58;
+    --color-6: #D8D1D2;
+    --color-7: #88704A;
 }
+
+h1{
+    font-size: 5rem;
+}
+
+.btn{
+    background-color: var(--color-1);
+    display: block;
+    color: var(--color-4);
+    padding: 1rem 2rem;
+    transition: background-color .3s ease-out;
+    text-align: center;
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+.btn:hover {
+    background-color: #d49b18;
+    cursor: pointer;
+}
+
+a { text-decoration: none; }
+
+.text-center{ text-align: center; }
+
+.separator-1 { margin-top: 2rem; }
+.separator-2 { margin-top: 4rem; }
