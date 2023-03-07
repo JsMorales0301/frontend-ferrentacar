@@ -1,3 +1,7 @@
+h1{
+    font-size: 3.8rem;
+}
+
 .general-information{
     margin-top: 4rem;
 }
@@ -29,5 +33,9 @@
     flex-direction: column;
     justify-content: flex-end;
     row-gap: 1.6rem;
+}
+
+.field input {
+    border: none;
 }
 
