@@ -1,0 +1,8 @@
+.home-font{
+    background-image: url('@/assets/home/font-home.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
