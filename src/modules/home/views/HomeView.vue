@@ -16,7 +16,10 @@
 </template>
 
 <script setup lang="ts">
-import FormHome from '../components/FormHome.vue';
+import { defineAsyncComponent } from 'vue';
 import '../styles/HomeView.css'
+
+const FormHome = defineAsyncComponent(() => import('../components/FormHome.vue'))
+
 </script>
 

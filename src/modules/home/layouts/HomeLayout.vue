@@ -13,9 +13,11 @@
 </template>
 
 <script setup lang="ts">
-import NavHome from '../components/NavHome.vue';
-import HomeView from '../views/HomeView.vue';
+import { defineAsyncComponent } from 'vue';
 import '../styles/HomeLayout.css'
+
+const NavHome = defineAsyncComponent(() => import('../components/NavHome.vue'))
+const HomeView = defineAsyncComponent(() => import('../views/HomeView.vue'))
 
 </script>
 
