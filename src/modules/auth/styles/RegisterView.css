@@ -1,0 +1,21 @@
+
+.container{
+    max-width: 32rem;
+    margin: 0 auto;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+
+.input-register{
+    padding: 1rem;
+}
+
+.btn-flex{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.6rem;
+}
