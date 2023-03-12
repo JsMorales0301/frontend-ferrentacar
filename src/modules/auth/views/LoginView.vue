@@ -10,8 +10,10 @@
 </template>
 
 <script setup lang="ts">
-import FormLogin from '../components/FormLogin.vue';
+import { defineAsyncComponent } from 'vue';
 import '../styles/LoginView.css'
+
+const FormLogin = defineAsyncComponent(() => import('../components/FormLogin.vue'))
 
 </script>
 
